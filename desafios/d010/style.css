@@ -185,3 +185,12 @@ footer > p {
     padding-left: 22px;
     padding-right: 22px;
 }
+
+#rodape {
+    background-color: #033E19;
+    height: 25px;
+    margin: 0px -8px -6px -8px;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
