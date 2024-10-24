@@ -17,6 +17,11 @@ body header {
     color: white;
 }
 
+p {
+    padding-left: 16px;
+    font-size: 1.6em;
+}
+
 #principal {
     padding-top: 90px;
     font-family: "passion one";
@@ -27,7 +32,7 @@ body header {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-div a {
+a {
     color: white;
     text-decoration: none;
 }
@@ -52,43 +57,47 @@ article p {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    margin: 0px -8px 0px -8px;
+    box-shadow: 4px 7px 12px rgba(0, 0, 0, 0.601) inset;
 }
 
 #ft1 p {
-    width: 50%;
-    height: 60%;
+    width: 45%;
+    height: 55%;
 
     background-color: rgba(0, 0, 0, 0.274);
-    
+       
     color: white;
-    font-size: 1.5em;
-    padding-top: 20px;
-    padding-left: 15px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.705);
+    padding: 15px 0px 15px 10px;  
+    margin-left: 13px; 
 }
 
-#normal p {
-    padding-top: 30px;
+#espaco {
+    padding: 100px 0px 130px;
 }
 
 #ft2 {
     display: flex;
     background-image: url(imagens/background002.jpg);
-    background-position: left center;
+    background-position: right center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    box-shadow: 4px 7px 12px rgba(0, 0, 0, 0.578) inset;
+    margin: 0px -8px 0px -8px;
 }
 
 #ft2 p {
-    width: 50%;
-    height: 60%;
+    width: 45%;
+    height: 55%;
 
     background-color: rgba(0, 0, 0, 0.274);
 
     color: white;
-    font-size: 1.5em;
-    padding-top: 20px;
-    padding-left: 15px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.71);
+    padding: 15px 0px 15px 10px;
+    margin-left: 13px;
 }
 
 footer {
@@ -98,8 +107,10 @@ footer {
     color: white;
     text-align: center;
     margin: 0px -8px -14px -8px;
+    
 }
 
 footer p {
-    padding: 5px;
+    padding: 6px 0px 6px 0px;
+    font-size: 0.9em;
 }
