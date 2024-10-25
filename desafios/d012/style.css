@@ -9,7 +9,7 @@ body {
     background-color: white;
 }
 
-body header {
+header {
     background-color: black;
     height: 250px;
     margin: -8px -8px 0px -8px;
@@ -22,19 +22,27 @@ p {
     font-size: 1.6em;
 }
 
-#principal {
-    padding-top: 90px;
+h1 {
+    padding-top: 70px;
     font-family: "passion one";
     font-size: 4em;
+    margin: 0px;
+    font-variant: small-caps;
 }
 
-#secundaria {
+header p {
     font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    font-size: 1em;
 }
 
 a {
     color: white;
     text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 article {
