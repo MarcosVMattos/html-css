@@ -36,12 +36,16 @@ iframe {
     position: absolute;
     top: 80px;
     left: 22px;
-    width: 268px;
+    width: 267px;
     height: 471px;
+}
+
+#redes {
+    text-align: right;
 }
 
 img {
     height: 50px;
-    padding: 10px;
+    margin: 10px;
     border-radius: 50%;
 }
