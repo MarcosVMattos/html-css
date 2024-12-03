@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'android';
+    src: url('pacote-projeto-d010/fontes/idroid.otf') format('opentype');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;  
+}
+
+:root {
+    --cor0: #c5ebd6;
+    --cor1: #83e1ad;
+    --cor2: #3ddc84;
+    --cor3: #2fa866;
+    --cor4: #1a5c37;
+    --cor5: #063d1e;
+
+    --principal: arial, helvetica, sans-serif;
+    --android: 'android';
+    --titulo: 'Bebas Neue';
+}
+
+body {
+    font-family: var(--principal);
+    background-color: beige;
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor4), var(--cor5));
+    color: white;
+    height: 140px;
+}
+
+header h1 {
+    font-family: var(--titulo);
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.723);
+    font-weight: lighter;
+    font-size: 2.3em;
+    padding: 15px;
+}
+
+header p {
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.723);
+    padding: 10px 10px 20px 10px;
+}
+
+nav {
+    background-color: #063d1e;
+}
+
+nav a:hover {
+    background-color: var(--cor1);
+    color: #063d1e;
+    border-radius: 7px;
+}
+
+main {
+    width: 800px;
+    margin: auto;
+    background-color: white;
+}
+
+footer {
+    background-color: #063d1e;
+}
