@@ -9,7 +9,7 @@
 
 * {
     margin: 0px;
-    padding: 0px;  
+    padding: 0px; 
 }
 
 :root {
@@ -41,30 +41,91 @@ header h1 {
     text-align: center;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.723);
     font-weight: lighter;
-    font-size: 2.3em;
-    padding: 15px;
+    font-size: 3em;
+    padding-top: 40px;
+    padding-bottom: 25px;
 }
 
-header p {
+header > p {
     text-align: center;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.723);
-    padding: 10px 10px 20px 10px;
+    font-size: 1.2em;
 }
 
 nav {
     background-color: #063d1e;
+    padding-top: 60px;
+    padding-bottom: 10px;
+}
+
+nav a {
+    color: var(--cor2);
+    padding: 10px 0px 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
 }
 
 nav a:hover {
-    background-color: var(--cor1);
-    color: #063d1e;
-    border-radius: 7px;
+    background-color: var(--cor3);
+    color: var(--cor5);
 }
 
 main {
-    width: 800px;
+    min-width: 400px;
+    max-width: 1050px;
     margin: auto;
     background-color: white;
+    padding: 20px;
+}
+
+main h2 {
+    font-family: var(--android);
+    color: var(--cor5);
+    font-weight: normal;
+    font-size: 1.8em;
+}
+
+main p {
+    line-height: 2em;
+    padding: 15px 0px 15px 0px;
+    text-indent: 30px;
+    text-align: justify;
+}
+
+main strong {
+    color: var(--cor5);
+}
+
+main h3 {
+    background-image: linear-gradient(to right, #2fbd6fc7, #ffffff61);
+    font-family: var(--android);
+    font-size: 1.3em;
+    font-weight: normal;
+    color: var(--cor4);
+    padding-left: 7px;
+}
+
+main article a {
+    background-image: linear-gradient(to right, #2fbd6fc7, #ffffff9c);
+    text-decoration: none;
+    padding: 2px 0px 2px 7px;
+    color: #063d1e;
+}
+
+main a:hover {
+    text-decoration: underline;
+    color: var(--cor4);
+}
+
+main img {
+    width: 100%;
+}
+
+main #mascote {
+    display: block;
+    margin: auto;
+    max-width: 350px;
 }
 
 footer {
