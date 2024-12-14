@@ -6,7 +6,6 @@
     <title>Formulário</title>
 </head>
 <body>
-    <h1>Exemplo de Formulário</h1>
     <form action="cadastro.py" method="get">
         <fieldset>
             <legend>Dados pessoais</legend>
@@ -16,15 +15,15 @@
             </p>
             <p>
                 <label for="iemail">E-mail</label>
-                <input type="email" name="email" id="iemail" required autocomplete="email">
+                <input type="email" name="email" id="iemail" required>
             </p>
             <p>
-                <label for="itel">Telefone</label>
-                <input type="tel" name="tel" id="itel" required minlength="10" placeholder="(ddd)xxxxxxxx">
+                <label for="itelefone">telefone</label>
+                <input type="tel" name="telefone" id="itelefone" required minlength="8" placeholder="(ddd)xxxxxxxx">
             </p>
             <p>
                 <input type="submit" value="Enviar">
-                <input type="submit" value="Limpar">
+                <input type="reset" value="Limpar">
             </p>
         </fieldset>
     </form>
