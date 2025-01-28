@@ -6,29 +6,29 @@
     <title>Formulário</title>
 </head>
 <body>
-    <h1>Exemplo de Formulário</h1>
-    <form action="cadastro.py" method="post">
+    <h1>Exemplo de formulário</h1>
+    <form action="cadastro.py" method="post" autocomplete="on">
 
         <p>
             <label for="icor">Cor: </label>
-            <input type="color" name="cor" id="icor">
+            <input type="color" name="cor" id="icor" value="#f2008f">
+        </p>
+        
+        <p>
+            <label for="isat">Nível de satisfação: </label>
+            <input type="range" name="sat" id="isat" min="1" max="10">
         </p>
 
         <p>
-            <label for="inivel">Nível de Satisfação</label>
-            <input type="range" name="nivel" id="inivel" min="1" max="10" value="5">
-        </p>
-
-        <p>
-            <label for="ifoto">Foto do perfil:</label>
+            <label for="ifoto">Foto de perfil: </label>
             <input type="file" name="foto" id="ifoto">
         </p>
         
         <p>
             <input type="submit" value="Enviar">
-            <input type="reset" value="Limpar">
+            <input type="reset" value="Apagar">
         </p>
-    
+
     </form>
 </body>
 </html>
