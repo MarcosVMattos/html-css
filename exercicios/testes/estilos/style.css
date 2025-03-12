@@ -35,20 +35,49 @@ section#login {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    overflow: hidden;
 
-    background-color: aliceblue;
+    background-color: white;
     width: 250px;
     height: 500px;
     border-radius: 20px;
-    
-    
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.507);
 
-    
-    overflow: hidden;
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 
-div#foto {
-    background: url(../imagens/pexels-david-underland-3523621.jpg) center center no-repeat;
+section#login div#imagem{
+    display: block;
+    background:#5f2c82 url(../imagens/pexels-david-underland-3523621.jpg) center center no-repeat;
     background-size: cover;
-    height: 40%;
+    height: 200px;
+}
+
+section#login div#formulario {
+    display: block;
+    padding: 10px;
+}
+
+div#formulario h1 {
+    text-align: center;
+    padding: 5px;
+}
+
+form div#login {
+    background-color: #5f2c82;
+    margin: 10px;
+    border-radius: 10px;
+    padding-bottom: 5px;
+}
+
+form div#senha {
+    background-color: #5f2c82;
+    margin: 10px;
+    border-radius: 10px;
+    padding-bottom: 5px;
+}
+
+form div#botao {
+    text-align: center;
 }
