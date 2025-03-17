@@ -49,8 +49,7 @@ section#login {
 
 section#login div#imagem{
     display: block;
-    background:#5f2c82 url(../imagens/pexels-david-underland-3523621.jpg) center center no-repeat;
-    background-size: cover;
+    background:#5f2c82 url(../imagens/pexels-david-underland-3523621.jpg)no-repeat center center/cover;
     height: 200px;
 }
 
@@ -126,7 +125,7 @@ form a.botao {
     text-align: center;
     font-size: 1em;
     width: 98%;
-    height: 40px;
+    height: 37px;
     padding-top: 5px;
     margin-top: 5px;
     margin-left: 2px;
