@@ -15,11 +15,13 @@ body {
 }
 
 header {
-    display: flex;
+    
     flex-flow: row nowrap;
     background-color: gray;
     color: white;
     padding: 10px;
+
+    display: flex;
 }
 
 header h1 {
@@ -30,14 +32,29 @@ header h1 {
 header nav {
     border: 1px dotted black;
     padding: 10px;
+    /*align-content: flex-end;*/
+    /*align-items: flex-start;*/
+    /*align-self: flex-start;*/
+    /*justify-content: flex-start;*/
+    /*justify-items: flex-sat; 
+    
+    ANTES DO FLEX-START TENTEI FLEX-END EM TODAS AS PROPRIEDADES*/
+    
 }
 
 header nav a {
     background-color: black;
-    border-radius: 5px;
     color: white;
-    text-decoration: none;
     padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+}
+
+header nav a:hover {
+    background-color: white;
+    color: black;
+    transition: .5s;
 }
 
 main {
