@@ -15,37 +15,32 @@ body {
 }
 
 header {
-    
-    flex-flow: row nowrap;
     background-color: gray;
     color: white;
     padding: 10px;
 
     display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header h1 {
-    border: 1px dotted black;
-    margin-bottom: 5px;
+    flex: 0 0 200px;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.678);
 }
 
 header nav {
-    border: 1px dotted black;
-    padding: 10px;
-    /*align-content: flex-end;*/
-    /*align-items: flex-start;*/
-    /*align-self: flex-start;*/
-    /*justify-content: flex-start;*/
-    /*justify-items: flex-sat; 
-    
-    ANTES DO FLEX-START TENTEI FLEX-END EM TODAS AS PROPRIEDADES*/
-    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
 }
 
 header nav a {
     background-color: black;
     color: white;
     padding: 10px;
+    margin: 5px;
     border-radius: 5px;
     text-decoration: none;
     text-align: center;
@@ -65,8 +60,16 @@ main {
     box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.452);
 }
 
-@media screen and (min-width: 1024px){
-    body {
-        background-color: red;
-    }   
+@media screen and (max-width: 700px){
+    header, header nav {
+        flex-flow: column nowrap;
+    }
+
+    header h1 {
+        flex-basis: 55px;
+    }
+
+    header nav a {
+        width: 90vw;
+    }
 }
