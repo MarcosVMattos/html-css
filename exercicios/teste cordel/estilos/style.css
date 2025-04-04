@@ -25,7 +25,7 @@ header {
 
 header h1 {
     font-family: Passion one;
-    font-size: 4.8em;
+    font-size: 5em;
     margin-bottom: 3px;
     font-variant-caps: small-caps;
 }
@@ -38,20 +38,29 @@ header a {
 
 article {
     font-family: Sriracha;
-    font-size: 1.5em;   
+    font-size: 2em;   
     line-height: 50px;
+    padding: 8vh 0vw 8vh 2vw;
 }
 
-div {
-    padding: 100px 0px 100px 35px;
+article.branco div{
+    background-color: white;
 }
 
 article.foto1 {
     background: url(../imagens/background001.jpg) no-repeat right fixed;
     background-size: cover;
     color: white;
+    height: 600px;
 }
 
-article div.foto2 {
-    background-image: url(../imagens/background002.jpg);
+article.foto2 {
+    background: url(../imagens/background002.jpg) no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+
+article div {
+    background-color: rgba(0, 0, 0, 0.473);
+    display: inline-block;
 }
