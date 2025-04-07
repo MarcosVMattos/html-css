@@ -21,6 +21,9 @@ header {
     color: white;
     padding: 55px;
     text-align: center;
+
+    display: flex;
+    flex-flow: column nowrap;
 }
 
 header h1 {
@@ -38,7 +41,7 @@ header a {
 
 article {
     font-family: Sriracha;
-    font-size: 2em;   
+    font-size: 1.7em;   
     line-height: 50px;
     padding: 8vh 0vw 8vh 2vw;
 }
@@ -50,17 +53,22 @@ article.branco div{
 article.foto1 {
     background: url(../imagens/background001.jpg) no-repeat right fixed;
     background-size: cover;
+    text-shadow: 1px 1px 2px black;
     color: white;
     height: 600px;
+    box-shadow: 2px 2px 9px black inset;
 }
 
 article.foto2 {
     background: url(../imagens/background002.jpg) no-repeat center center fixed;
     background-size: cover;
+    text-shadow: 2px 2px 3px black;
     color: white;
 }
 
 article div {
+    padding: 5px;
     background-color: rgba(0, 0, 0, 0.473);
+    
     display: inline-block;
 }
