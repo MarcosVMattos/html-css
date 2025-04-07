@@ -1,19 +1,5 @@
 @charset "UTF-8";
 
-@media screen and (max-width: 580px){
-    header, header nav {
-        flex-flow: column nowrap;
-    }
-
-    header h1 {
-        flex-basis: 55px;
-    }
-
-    header nav a {
-        width: 90vw;
-    }
-}
-
 * {
     margin: 0px;
     padding: 0px;
@@ -84,4 +70,18 @@ main {
 main h2 {
     text-align: center;
     padding-bottom: 10px;
+}
+
+@media screen and (max-width: 700px){
+    header, header nav {
+        flex-flow: column nowrap;
+    }
+
+    header h1 {
+        flex-basis: 55px;
+    }
+
+    header nav a {
+        width: 90vw;
+    }
 }
