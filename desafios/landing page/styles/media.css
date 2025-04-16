@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 750px){ 
+    header {
+        flex-direction: column;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    h2 {
+        font-size: 100%;
+    }
+
+    img {
+        width: 80%;
+    }
+}
