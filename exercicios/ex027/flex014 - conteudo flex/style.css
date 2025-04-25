@@ -23,24 +23,22 @@ header, section.normal{
     padding: 20px
 }
 
-section {
-    display: flex;
-    flex-flow: column nowrap;
-}
-
 section.flex-content {
     padding: 20px;
     background-color: lightgray;
+
+    display: flex;
+    flex-flow: column nowrap;
 }
 
 section article {
     border: 2px dashed green;
 }
 
-article {
+article.text-media {
     display: flex;
 }
 
-article p {
-    padding-right: 80px;
+article.media-text {
+    display: flex;
 }
